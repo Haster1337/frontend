@@ -1,0 +1,61 @@
+.accessories {
+    margin-top: 5%;
+    @media(max-width: 1194px){
+        margin: 5% 5% 0 5%;
+    }
+    h3{
+      @extend %grid;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      color: #FFFFFF;
+      margin-bottom: 2%; 
+      @media(max-width: 750px){
+        font-size: 20px;
+        line-height: 30px;
+      }
+      @media(max-width: 550px){
+        font-size: 16px;
+        line-height: 30px;
+      }
+      @media(max-width: 480px){
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    p{
+      @extend %grid;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 27px;
+      color: #FFFFFF;
+      margin-bottom: 2%; 
+      @media(max-width: 750px){
+        font-size: 12px;
+        line-height: 20px;
+      }
+      @media(max-width: 650px){
+        font-size: 10px;
+        line-height: 16px;
+      }
+      @media(max-width: 550px){
+       line-height: 12px;
+      }
+      @media(max-width: 550px){
+        font-size: 8px;
+       }
+       @media(max-width: 450px){
+        font-size: 7px;
+       }
+    }
+    div {
+      @extend %grid;
+      width: 100%;
+      img{
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+  }

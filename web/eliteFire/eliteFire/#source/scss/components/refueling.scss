@@ -1,0 +1,128 @@
+//<refueling>
+.refueling {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    @media(max-width: 600px){
+        gap: 15px;
+    }
+    .refueling_content{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .refueling__title{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    @media(max-width: 700px){
+        gap: 35px;
+    }
+    @media(max-width: 550px){
+        gap: 10px;
+    }
+    @media(max-width: 500px){
+        gap: 0;
+    }
+    h3{
+      font-style: normal;
+      font-weight: 250;
+      font-size: 40px;
+      line-height: 55px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      @extend %color;
+      @media(max-width: 700px){
+        font-size: 32px;
+        line-height: 45px;
+      }
+      @media(max-width: 550px){
+        font-size: 26px;
+        line-height: 35px;
+      }
+      @media(max-width: 500px){
+        font-size: 20px; 
+        line-height: 25px;
+     } 
+    }
+    p {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 33px;
+      color: #FFFFFF;
+      @media(max-width: 900px){
+        font-size: 16px;
+      }
+      @media(max-width: 700px){
+        font-size: 14px;
+        line-height: 20px;
+      }
+      @media(max-width: 600px){
+        font-size: 12px;
+        line-height: 16px;
+      }
+      @media(max-width: 500px){
+        font-size: 10px; 
+     } 
+    }
+  }
+  
+  .refueling__picture {
+    width: 100%;
+    @media(max-width: 600px){
+        gap: 15px;
+    }
+    img{
+      max-width: 100%;
+      object-fit: cover;
+    }
+    .refueling_instructions {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      @media(max-width: 700px){
+        gap: 15px;
+    }
+        @media(max-width: 550px){
+            gap: 10px;
+         }   
+      p:first-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        img:first-child, img:last-child{
+            width: 20px;
+            height: 20px;
+            @media(max-width: 700px){
+                width: 16px;
+                height: 16px;
+            }
+        }
+      }
+      p:last-child {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+        @media(max-width: 700px){
+            font-size: 12px;
+            line-height: 16px;
+        }
+        @media(max-width: 550px){
+            font-size: 10px;
+            line-height: 12px;
+        }
+        @media(max-width: 500px){
+            font-size: 9px; 
+         } 
+      }
+    }
+  }
+  
+  //</refueling>

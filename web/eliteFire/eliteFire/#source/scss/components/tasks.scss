@@ -1,0 +1,57 @@
+.tasks {
+    margin-top: 5%;
+    @media(max-width: 1194px){
+        margin: 5% 5% 0 5%;
+    }
+    div {
+      margin-top: 2%;
+      h2{
+        font-weight: 250;
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        @extend %color;
+        @media(max-width: 750px){
+            font-size: 32px;
+            line-height: 45px;
+          }
+          @media(max-width: 610px){
+            font-size: 20px;
+            line-height: 30px;
+          }
+          @media(max-width: 480px){
+            font-size: 14px;
+            line-height: 24px;
+          }
+          @media(max-width: 400px){
+            font-size: 12px;
+            line-height: 16px;
+          }
+      }
+      .boxes {
+        margin-bottom: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        @media(max-width: 750px){
+            gap: 30px;
+          }
+          @media(max-width: 610px){
+            gap: 20px;
+          }
+          @media(max-width: 480px){
+            gap: 10px;
+          }
+          @media(max-width: 370px){
+            gap: 5px;
+          }
+        width: 100%;
+        img{
+          max-width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }

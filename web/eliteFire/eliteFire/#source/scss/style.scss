@@ -1,0 +1,49 @@
+@import "nullStyle.scss";
+@import "labfont.scss";
+@import "/fonts/labGrotesque/stylesheet.css";
+
+
+%color {
+  background: linear-gradient(to right, #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+html,
+body {
+  height: 100%;
+  background: radial-gradient(ellipse at center, #45484d 0%,#000000 100%);
+  font-family: "Lab Grotesque Mono";
+}
+
+.container {
+  max-width: 1194px;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  .main {
+    flex: 1 1 auto;
+  }
+  
+}
+
+.main {
+  margin-top: 5%;
+}
+
+@import "components/header.scss";
+
+@import "components/firstProduct.scss";
+@import "components/feature.scss";
+@import "components/refueling.scss";
+@import "components/intelligentFeature.scss";
+@import "components/accessories.scss";
+@import "components/catalogue.scss";
+@import "components/tasks.scss";
+@import "components/createFireplace.scss";
+@import "slider/slider.scss";
+@import "components/buy.scss";
+
+@import "components/footer.scss";

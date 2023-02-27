@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Lab Grotesque Mono';
+    src: url('LabGrotesqueMono.eot');
+    src: local('Lab Grotesque Mono'), local('LabGrotesqueMono'),
+        url('LabGrotesqueMono.eot?#iefix') format('embedded-opentype'),
+        url('LabGrotesqueMono.woff2') format('woff2'),
+        url('LabGrotesqueMono.woff') format('woff'),
+        url('LabGrotesqueMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('LabGrotesque-LightItalic.eot');
+    src: local('Lab Grotesque Light Italic'), local('LabGrotesque-LightItalic'),
+        url('LabGrotesque-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('LabGrotesque-LightItalic.woff2') format('woff2'),
+        url('LabGrotesque-LightItalic.woff') format('woff'),
+        url('LabGrotesque-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
